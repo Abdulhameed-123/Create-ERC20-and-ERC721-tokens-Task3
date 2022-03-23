@@ -1,18 +1,10 @@
-REMIX EXAMPLE PROJECT
-
-Remix example project is present when Remix loads for the very first time or there are no files existing in the File Explorer. 
-It contains 3 directories:
-
-1. 'contracts': Holds three contracts with different complexity level, denoted with number prefix in file name.
-2. 'scripts': Holds two scripts to deploy a contract. It is explained below.
-3. 'tests': Contains one test file for 'Ballot' contract with unit tests in Solidity.
-
-SCRIPTS
-
-The 'scripts' folder contains example async/await scripts for deploying the 'Storage' contract.
-For the deployment of any other contract, 'contractName' and 'constructorArgs' should be updated (along with other code if required). 
-Scripts have full access to the web3.js and ethers.js libraries.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-
-Output from script will appear in remix terminal.
+ IPFS ADDRESS FOR ERC20: http://ipfs.io/ipfs/QmbJYSJ4CDf96EAVmDY7H3zRR9Zqh8GZw4S1KSdAP8jUev
+ IPFS ADDRESS FOR ERC721: http://ipfs.io/ipfs/QmXJ7YJrk93JG23VkUwrB895PV3nuACfzeE51bxJbsB7Yi 
+ For ERC20 token contract etherscan address:https://rinkeby.etherscan.io/address/0x0b50c1f950fd1d8a10ed55c48d152037614d23bd
+ For ERC721 token contract etherscan address:https://rinkeby.etherscan.io/address/0x071bcc51ec6230788afca76ed290ff82a691c6f8
+ Metadata Structure:
+{
+  "name": "Tanget",
+  "description": "Tanget (631px, png)",
+  "image": "https://ipfs.io/ipfs/Qmf2U1Rv1UeUiPypiZB8qwJerMspZWoAoBZ7d9N2QvDwKx"
+}
